@@ -1,7 +1,8 @@
 #!/bin/bash
 if [ $# -ne 0 ];then
+	# if the file already exists
 	if [ -f $1 ];then
-		echo "$1 existe deja"
+		echo "$1 already exists"
 		echo choisissez un autre nom de fichier :
 		read a
 		$0 $a
@@ -11,7 +12,7 @@ if [ $# -ne 0 ];then
 		echo '     <head>'>> $1
 		echo '         <meta name="description" content="File generated with Bash">'>> $1
 		echo '         <meta name="keywords" content="HTML,CSS,XML,JavaScript">'>> $1
-		echo '         <meta name="author" content="Alexandre Ravaux">'>> $1
+		echo '         <meta name="author" content="John Doe">'>> $1
 		echo '         <meta charset="UTF-8">'>> $1
 		echo '     </head>'>> $1
 		echo '     <body>'>> $1
@@ -20,5 +21,5 @@ if [ $# -ne 0 ];then
 		echo ' </html>'>> $1
 	fi
 else
-	echo "usage : $0 [nom du fichier].html">&2
+	echo "usage : $0 [file name].html">&2
 fi
