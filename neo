@@ -1,0 +1,32 @@
+#!/bin/bash
+###################################################
+# @author:Alexandre Ravaux                        #
+# @date:2014/02/19                                #
+# @shell:bin/bash                                 #
+###################################################
+
+##### The Neo Trip #####
+reset
+# Wake up Neo...
+echo -n "W"; sleep 0.25; echo -n a; sleep 0.25; echo -n k; sleep 0.25; echo -n e; sleep 0.25; echo -n ' '; 
+echo -n u; sleep 0.25; echo -n p; sleep 0.25; echo -n ', '; sleep 0.25;echo -n N; sleep 0.25; echo -n e; 
+sleep 0.25;echo -n o; echo -n '.'; sleep 0.25;echo -n '.'; sleep 0.25;echo -n '.'; sleep 3;
+reset
+# The Matrix has you...
+echo -n T; sleep 0.25; echo -n h; sleep 0.25; echo -n e; sleep 0.25; echo -n ' '; sleep 0.25; echo -n M; 
+echo -n a; sleep 0.25; echo -n t; sleep 0.25;echo -n r; sleep 0.25; echo -n i; sleep 0.25; echo -n x; 
+sleep 0.25;echo -n ' '; echo -n h; sleep 0.25;echo -n a; sleep 0.25;echo -n s; sleep 0.25;
+echo -n ' '; sleep 0.25;echo -n y; sleep 0.25;echo -n o; sleep 0.25;echo -n u; sleep 0.25;
+echo -n '.'; sleep 0.25;echo -n '.'; sleep 0.25;echo -n '.'; sleep 3;
+reset
+# Follow the White Rabbit
+echo -n F; sleep 0.25; echo -n o; sleep 0.25; echo -n l; sleep 0.25; echo -n l; sleep 0.25; 
+echo -n o; sleep 0.25; echo -n w; sleep 0.25;echo -n ' '; echo -n t; sleep 0.25; echo -n h; 
+sleep 0.25;echo -n e; sleep 0.25; echo -n ' '; sleep 0.25; echo -n W; sleep 0.25;echo -n h; 
+sleep 0.25;echo -n i; sleep 0.25;echo -n t; sleep 0.25; echo -n e; sleep 0.25;echo -n ' ';
+sleep 0.25;echo -n R; sleep 0.25;echo -n a; sleep 0.25;echo -n b; sleep 0.25;echo -n b; 
+sleep 0.25; echo -n i; sleep 0.25; echo -n t; sleep 0.25; echo -n '.';sleep 3;
+reset
+neo="`whoami`"
+echo Knock, knock $neo; sleep 3;
+reset
